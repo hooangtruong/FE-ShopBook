@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(243, 244, 246);
+}
+.disable-scroll {
+  overflow: hidden;
+}
+.break-inside {
+  -moz-column-break-inside: avoid;
+  break-inside: avoid;
+}
